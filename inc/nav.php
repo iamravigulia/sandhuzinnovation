@@ -19,10 +19,10 @@
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Services </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> About us </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Contact us </a>
+                <a href="index.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home </a>
+                <a href="services.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Services </a>
+                <a href="about-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> About us </a>
+                <a href="contact-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Contact us </a>
             </nav>
             <!-- <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
