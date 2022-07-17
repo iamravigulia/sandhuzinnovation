@@ -3,7 +3,7 @@
     <div class="">
         <?php include('inc/nav.php') ?>
     </div>
-    <div class="my-12 md:my-24">
+    <div class="my-12 md:my-24 h-screen">
         <div class="my-8 px-4 md:px-8 mx-2">
             <div class="">
                 <div class="px-4 md:px-12 py-12">
