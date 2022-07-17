@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white shadow">
     <div class="mx-auto">
-        <div class="flex text-left justify-start items-center py-4 md:-mx-36">
+        <div class="flex text-left justify-start items-center py-4">
             <div><a href="/">Sandhuz Innovation</a></div>
             <div class="md:hidden">
                 <button type="button" onclick="openMobMenu()" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">

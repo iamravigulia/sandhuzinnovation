@@ -1,5 +1,4 @@
 <?php include('header.php') ?>
-
 <body>
     <div class="min-h-screen">
         <?php include('inc/nav.php') ?>
