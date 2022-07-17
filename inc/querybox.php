@@ -22,7 +22,7 @@
             <textarea type="text" id="userMessage" name="message" class="block border my-1 py-1 px-1 w-full border-gray-200 rounded-md"></textarea>
         </div>
         <div class="my-2">
-            <button type="submit" id="submit" class="block text-white bg-blue-600 rounded-xl px-4 py-1 mt-4">Send Message</button>
+            <button type="submit" id="submit" class="submit block text-white bg-blue-600 rounded-xl px-4 py-1 mt-4">Send Message</button>
         </div>
     </form>
 </div>
@@ -52,8 +52,7 @@ $("#enqueryform").submit(function (e) {
         data:form_data,
         type: "POST",
             success:function(data){
-                console.log(data);
-                return;
+                
                 $("#mail-status").show()
                 $("#userName").val('');
                 $("#userEmail").val('');

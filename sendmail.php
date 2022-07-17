@@ -17,7 +17,7 @@ $mail->SMTPAuth = true;
 $mail->Username = "tarun@sportswizzleague.com";
 $mail->Password = "Humtumtarun@1";
 //If SMTP requires TLS encryption then set it
-
+// Sandhusandhu_1
 $mail->SMTPSecure = "tls";                           
 //Set TCP port to connect to 
 $mail->Port = 587;                                   
