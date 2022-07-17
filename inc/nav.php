@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="py-6 px-5 space-y-6">
-                <div class="grid grid-cols-2 gap-y-4 gap-x-8">
+                <div class="grid grid-cols-1 gap-y-4 gap-x-8">
                     <a href="/index.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> Home </a>
                     <a href="/services.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> Services </a>
                     <a href="/about-us.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> About us </a>

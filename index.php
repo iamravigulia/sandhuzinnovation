@@ -15,7 +15,7 @@
                 <div class="text-sm md:text-lg my-1 text-pink-700">We Are Product Designer From India</div>
                 <div class="text-xl md:text-6xl my-1 ">We Design Interfaces That Users Love</div>
                 <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
-                <div class="my-4"><a href="" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
+                <div class="my-4"><a href="/contact-us.php" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
             </div>
             <div class="basis-full md:basis-1/2">
                 <div>
