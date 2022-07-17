@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <body>
-    <div class="h-screen">
+    <div class="min-h-screen">
         <?php include('inc/nav.php') ?>
         <div class="px-4 md:px-12 py-12 ">
             <h1 class="text-left text-4xl my-2">About Us</h1>
