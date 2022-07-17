@@ -4,14 +4,25 @@
     <div class="">
         <?php include('inc/nav.php') ?>
     </div>
-    <div class="py-12 bg-blue-400">
-        <h1 class="text-center text-4xl my-2">Services</h1>
+    <div class="banner flex" style="height: 90vh; background-image:url('./images/intro-bg.png')">
+        <div class="md:flex flex-row pt-16 px-4 md:px-16 items-center">
+            <div class="basis-full md:basis-1/2">
+                <div class="text-xl md:text-6xl my-1 ">Services</div>
+                <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
+                <div class="my-4"><a href="" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
+            </div>
+            <div class="basis-full md:basis-1/2">
+                <div>
+                    <img src="./images/service-img.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="my-24">
-        <div class="my-8 px-8 mx-2">
-            <div class="flex flex-row">
+    <div class="my-12 md:my-24">
+        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
+            <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="h-36" src="./images/img6.png" alt="">
+                    <img class="hidden md:block md:h-36" src="./images/img6.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
                     <p class="my-2">SANDHUZ has capacity to manage administrative and field projects nationwide. We believe in quality of work whilst maintaining the safety and standards. Currently we are providing services in optical fiber network installation.</p>
@@ -19,11 +30,11 @@
             </div>
         </div>
     </div>
-    <div class="my-24">
-        <div class="my-8 px-8 mx-2">
-            <div class="flex flex-row">
+    <div class="my-12 md:my-24">
+        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
+            <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="h-36" src="./images/img6.png" alt="">
+                    <img class="hidden md:block md:h-36" src="./images/img6.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-2 text-xl"><b>BDOD: </b></div>
@@ -44,11 +55,11 @@
             </div>
         </div>
     </div>
-    <div class="my-24">
-        <div class="my-8 px-8 mx-2">
-            <div class="flex flex-row">
+    <div class="my-12 md:my-24">
+        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
+            <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="h-36" src="./images/img6.png" alt="">
+                    <img class="hidden md:block md:h-36" src="./images/img6.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-2 text-xl"><b>FTTC:</b></div>
@@ -63,18 +74,7 @@
             </div>
         </div>
     </div>
-    
-    
-
-    <ul>
-        
-    </ul>
-
-    <div class="mt-24 bg-blue-900 text-white">
-        <div class="px-24 py-4 mx-2">
-            Copyright © 2022 Sondhuz Innovation. All rights reserved.
-        </div>
-    </div>
+    <?php include('inc/footer.php') ?>
 </body>
 
 </html>

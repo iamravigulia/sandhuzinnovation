@@ -1,5 +1,5 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white border-b-2 border-gray-100">
+<div class="relative bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -19,10 +19,10 @@
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
-                <a href="index.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home </a>
-                <a href="services.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Services </a>
-                <a href="about-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> About us </a>
-                <a href="contact-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Contact us </a>
+                <a href="/index.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home </a>
+                <a href="/services.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Services </a>
+                <a href="/about-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> About us </a>
+                <a href="/contact-us.php" class="text-base font-medium text-gray-500 hover:text-gray-900"> Contact us </a>
             </nav>
             <!-- <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
@@ -50,10 +50,10 @@
             </div>
             <div class="py-6 px-5 space-y-6">
                 <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-                    <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Home </a>
-                    <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Services </a>
-                    <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> About us </a>
-                    <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Contact us </a>
+                    <a href="/index.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> Home </a>
+                    <a href="/services.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> Services </a>
+                    <a href="/about-us.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> About us </a>
+                    <a href="/contact-us.php" class="text-base font-medium text-gray-900 hover:text-gray-700"> Contact us </a>
                 </div>
                 <!-- <div>
                     <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
