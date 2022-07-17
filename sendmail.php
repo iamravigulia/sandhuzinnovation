@@ -16,14 +16,24 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.mailtrap.io';
     $mail->SMTPAuth = true;
-    $mail->Port = 2525;
-    $mail->Username = '831d4f54871e6b';
-    $mail->Password = 'dff021ff29409b';
+    // $mail->Port = 2525;
+    $mail->SMTPSecure = "tls";                           
+//Set TCP port to connect to 
+$mail->Port = 587; 
+    $mail->Username = 'tarun@sportswizzleague.com';
+    $mail->Password = 'Humtumtarun@1';
+
+    // printf($_POST["email"]);
+    // die();
+
+
+
+
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
+    $mail->setFrom('increadibletarun07@gmail.com', 'Mailer');
     // $mail->addAddress('sandhuzinnovation@gmail.com', 'Sandhuz Innovation');     //Add a recipient
-    $mail->addAddress('ellen@example.com');               //Name is optional
+    $mail->addAddress('increadibletarun07@gmail.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
@@ -40,6 +50,16 @@ try {
 
     $mail->send();
     echo 'Message has been sent';
+
+
+
+
+
+
+
+
+
+
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
