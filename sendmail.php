@@ -1,65 +1,66 @@
 <?php
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
+
+require_once "vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
-require 'vendor/autoload.php';
+$mail = new PHPMailer;
 
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
+//Enable SMTP debugging. 
+$mail->SMTPDebug = 0;
+//Set PHPMailer to use SMTP.
+$mail->isSMTP();
+//Set SMTP host name                          
+$mail->Host = "smtp.gmail.com";
+//Set this to true if SMTP host requires authentication to send email
+$mail->SMTPAuth = true;                          
+//Provide username and password     
+$mail->Username = "tarun@sportswizzleague.com";
+$mail->Password = "Humtumtarun@1";
+//If SMTP requires TLS encryption then set it
 
-try {
-    // $phpmailer = new PHPMailer();
-    $mail->isSMTP();
-    $mail->Host = 'smtp.mailtrap.io';
-    $mail->SMTPAuth = true;
-    // $mail->Port = 2525;
-    $mail->SMTPSecure = "tls";                           
+$mail->SMTPSecure = "tls";                           
 //Set TCP port to connect to 
-$mail->Port = 587; 
-    $mail->Username = 'tarun@sportswizzleague.com';
-    $mail->Password = 'Humtumtarun@1';
+$mail->Port = 587;                                   
 
-    // printf($_POST["email"]);
-    // die();
+$mail->From = "tarun@sportswizzleague.com";
 
 
+$mail->FromName = "Contact Form";
+// sandhuzinnovation@gmail.com
+$mail->addAddress("increadibletarun07@gmail.com", "Sandhuz");
+
+$mail->isHTML(true);
+function clean_string($string) {
+    $bad = array("content-type","bcc:","to:","cc:","href");
+    return str_replace($bad,"",$string);
+}
 
 
+    
+$fullname = $_POST["fname"];
+$tel = $_POST["tel"];
+$email =  $_POST["email"];
+$message =  $_POST["message"];
 
-    //Recipients
-    $mail->setFrom('increadibletarun07@gmail.com', 'Mailer');
-    // $mail->addAddress('sandhuzinnovation@gmail.com', 'Sandhuz Innovation');     //Add a recipient
-    $mail->addAddress('increadibletarun07@gmail.com');               //Name is optional
-    // $mail->addReplyTo('info@example.com', 'Information');
-    // $mail->addCC('cc@example.com');
-    // $mail->addBCC('bcc@example.com');
+$email_message = "<h2>Form details below.</h2>\n\n";
+$email_message .= "<table><tr><td><strong>Full Name:</strong> ".clean_string($fullname)."</td></tr><br>";
+$email_message .= "<tr><td><strong>Telephone Number:</strong> ".clean_string($tel)."</td></tr><br>";
+$email_message .= "<tr><td><strong>Email:</strong> ".clean_string($email)."</td></tr><br>";
+$email_message .= "<tr><td><strong>Message:</strong> ".clean_string($message)."</td></tr><br>";
+    
 
-    // Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+error_reporting(0);
+//$mail->SMTPDebug = 2;
+$mail->Subject = "Form Content";
+$mail->Body = $email_message;
+$mail->AltBody = "This is the plain text version of the email content";
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-    $mail->send();
-    echo 'Message has been sent';
-
-
-
-
-
-
-
-
-
-
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+if(!$mail->send()) 
+{
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} 
+else 
+{
+    echo json_encode(array('status' => 1,'response' =>"Message has been sent successfully" ));
+    //echo ["status" => 1,];
 }

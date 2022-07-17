@@ -59,7 +59,7 @@
         <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
             <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="hidden md:block md:h-36" src="./images/img6.png" alt="">
+                    <img class="hidden md:block md:h-36" src="./images/ftth.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-2 text-xl"><b>FTTC:</b></div>
