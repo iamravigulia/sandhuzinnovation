@@ -1,15 +1,13 @@
-
-<?php include('header.php') ?>
+<!-- 
+ include('header.php') 
 
 <body>
     <div class="">
-        <?php include('inc/nav.php') ?>
+         include('inc/nav.php') 
     </div>
-    <!-- bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 -->
+
     <div class="banner flex" style="height: 90vh; background-image:url('./images/intro-bg.png')">
-        <!-- <div class="py-4 px-1 block rounded-xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-2xl text-center">Civil Comms Australia is a leading telecommunications civil-construction contracting firm. Read More... <br>
-            <a href="" class="my-2 px-4 py-1 rounded-xl btn text-white bg-blue-600 inline-block">Contact Us</a>
-        </div> -->
+        
         <div class="md:flex flex-row pt-16 px-4 md:px-16 items-center">
             <div class="basis-full md:basis-1/2">
                 <div class="text-sm md:text-lg my-1 text-pink-700">We Are Product Designer From India</div>
@@ -60,7 +58,7 @@
                 <div class="basis-1/3 mb-4">
                     <img src="./images/img6.png" alt="">
                 </div>
-                <?php include('inc/querybox.php') ?>
+                include('inc/querybox.php') 
             </div>
         </div>
     </div>
@@ -73,14 +71,16 @@
     <div class="my-12 md:my-24">
         <div class="my-8 px-4 mx-2">
             <div class="md:flex flex-row">
-                <?php include('inc/contactus.php') ?>
+                include('inc/contactus.php') 
                 <div class="basis-1/3">
                     <img src="./images/img6.png" alt="">
                 </div>                
             </div>
         </div>
     </div>
-    <?php include('inc/footer.php') ?>
+     include('inc/footer.php') 
 </body>
 
-</html>
+</html> -->
+
+<!-- <h1 class="text-center">Website is down</h1> -->
