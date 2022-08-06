@@ -1,44 +1,31 @@
 <?php include('header.php') ?>
-
 <body>
     <div class="">
         <?php include('inc/nav.php') ?>
     </div>
-    <div class="banner flex" style="height: 90vh; background-image:url('./images/intro-bg.png')">
+    <div class="flex px-4" style="height: 90vh; background-image:url('./images/intro-bg.png')">
         <div class="md:flex flex-row pt-16 px-4 md:px-16 items-center">
-            <div class="basis-full md:basis-1/2">
+            <div class="md:basis-1/2">
                 <div class="text-xl md:text-6xl my-1 ">Services</div>
-                <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
-                <div class="my-4"><a href="" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
+                <div class="text-sm my-4">SANDHUZ has capacity to manage administrative and field projects nationwide. We believe in quality of work whilst maintaining the safety and standards. Currently we are providing services in optical fiber network installation.</div>
+                <div class="my-4"><a href="/contact-us.php" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
             </div>
-            <div class="basis-full md:basis-1/2">
+            <div class="md:basis-1/2">
                 <div>
-                    <img src="./images/service-img.png" alt="">
+                    <img class="" src="./images/service-img.png" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="my-12 md:my-24">
-        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
+    <div class="my-12 md:my-12">
+        <div class="md:my-8 px-4 md:px-8 mx-2">
             <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="hidden md:block md:h-36" src="./images/img6.png" alt="">
+                    <img class="h-full px-0 md:px-8 my-4" src="./images/bdod.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
-                    <p class="my-2">SANDHUZ has capacity to manage administrative and field projects nationwide. We believe in quality of work whilst maintaining the safety and standards. Currently we are providing services in optical fiber network installation.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="my-12 md:my-24">
-        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
-            <div class="md:flex flex-row">
-                <div class="basis-1/3">
-                    <img class="hidden md:block md:h-36" src="./images/bdod.png" alt="">
-                </div>
-                <div class="basis-2/3">                    
-                    <div class="my-2 text-xl"><b>BDOD: </b></div>
-                    <ul>
+                    <div class="my-4 text-xl mt-6"><b>BDOD: </b></div>
+                    <ul class="text-sm md:text-base">
                         <li>Survey – external and internals</li> 
                         <li>Optical fiber  external cable hauling</li> 
                         <li>Internal cable hauling in MDU and shopping centres</li>
@@ -55,15 +42,16 @@
             </div>
         </div>
     </div>
-    <div class="my-12 md:my-24">
-        <div class="my-4 md:my-8 px-4 md:px-8 mx-2">
+    <hr class="mx-4 md:mx-12 my-12 md:my-24">
+    <div class="my-12 md:my-12">
+        <div class="md:my-8 px-4 md:px-8 mx-2">
             <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="hidden md:block md:h-36" src="./images/ftth.png" alt="">
+                    <img class="h-full px-0 md:px-8 my-4" src="./images/ftth.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
-                    <div class="my-2 text-xl"><b>FTTC:</b></div>
-                    <ul>
+                    <div class="my-4 text-xl"><b>FTTC:</b></div>
+                    <ul class="text-sm md:text-base">
                         <li>DPU installation and Integrations</li> 
                         <li>DCL extension hauling</li> 
                         <li>Copper cut in</li> 
@@ -76,5 +64,4 @@
     </div>
     <?php include('inc/footer.php') ?>
 </body>
-
 </html>
