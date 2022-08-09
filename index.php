@@ -1,9 +1,9 @@
-<!-- 
- include('header.php') 
+
+ <?php include('header.php') ?>
 
 <body>
     <div class="">
-         include('inc/nav.php') 
+         <?php include('inc/nav.php') ?> 
     </div>
 
     <div class="banner flex" style="height: 90vh; background-image:url('./images/intro-bg.png')">
@@ -13,7 +13,7 @@
                 <div class="text-sm md:text-lg my-1 text-pink-700">We Are Product Designer From India</div>
                 <div class="text-xl md:text-6xl my-1 ">We Design Interfaces That Users Love</div>
                 <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
-                <div class="my-4"><a href="/contact-us.php" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
+                <div class="my-4"><a href="" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
             </div>
             <div class="basis-full md:basis-1/2">
                 <div>
@@ -58,7 +58,7 @@
                 <div class="basis-1/3 mb-4">
                     <img src="./images/img6.png" alt="">
                 </div>
-                include('inc/querybox.php') 
+                <?php include('inc/querybox.php') ?> 
             </div>
         </div>
     </div>
@@ -71,16 +71,14 @@
     <div class="my-12 md:my-24">
         <div class="my-8 px-4 mx-2">
             <div class="md:flex flex-row">
-                include('inc/contactus.php') 
+                <?php include('inc/contactus.php') ?> 
                 <div class="basis-1/3">
                     <img src="./images/img6.png" alt="">
                 </div>                
             </div>
         </div>
     </div>
-     include('inc/footer.php') 
+     <?php include('inc/footer.php') ?> 
 </body>
 
-</html> -->
-
-<!-- <h1 class="text-center">Website is down</h1> -->
+</html>
