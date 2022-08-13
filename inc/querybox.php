@@ -3,19 +3,19 @@
     <form id="enqueryform" method="post" name="form" class="text-left my-2 block">
         <div id="mail-status" class="alert alert-success text-green-600 my-4" style="display:none"><strong>Success !</strong> Message has been sent.</div>
         <div class="my-2">
-            <label for="" class="block text-sm pl-1 my-1 font-medium text-gray-700">Full name</label>
+            <label for="" class="block text-base pl-1 my-1 font-medium text-gray-700">Full name</label>
             <input type="text" id="userName" name="fname" style="outline:none;" class="block border my-1 py-1 px-1 w-full border-gray-200 rounded-md">
         </div>
         <div class="my-2">
-            <label for="" class="block text-sm pl-1 my-1 font-medium text-gray-700">Email</label>
+            <label for="" class="block text-base pl-1 my-1 font-medium text-gray-700">Email</label>
             <input type="text" id="userEmail" name="email" style="outline:none;" class="block border my-1 py-1 px-1 w-full border-gray-200 rounded-md">
         </div>
         <div class="my-2">
-            <label for="" class="block text-sm pl-1 my-1 font-medium text-gray-700">Phone</label>
+            <label for="" class="block text-base pl-1 my-1 font-medium text-gray-700">Phone</label>
             <input type="tel" id="phone" name="tel" style="outline:none;" class="block border my-1 py-1 px-1 w-full border-gray-200 rounded-md">
         </div>
         <div class="my-2">
-            <label for="" class="block text-sm pl-1 my-1 font-medium text-gray-700">Message</label>
+            <label for="" class="block text-base pl-1 my-1 font-medium text-gray-700">Message</label>
             <textarea type="text" id="userMessage" name="message" style="outline:none;" class="block border my-1 py-1 px-1 w-full border-gray-200 rounded-md"></textarea>
         </div>
         <div class="my-2">

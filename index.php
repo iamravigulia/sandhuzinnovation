@@ -17,7 +17,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-">Safe, secure and strong</div>
+">Safe, Secure and Strong</div>
                 <a href="/contact-us.php" class="bg-red-600 hover:bg-red-800 text-white px-4 py-1 inline-block rounded-xl">Contact Us</a></div>
             </div>
         </div>

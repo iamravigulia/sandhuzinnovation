@@ -27,7 +27,7 @@ $mail->From = "sandhuzinnovation@gmail.com";
 
 $mail->FromName = "Contact Form";
 // sandhuzinnovation@gmail.com
-$mail->addAddress("increadibletarun07@gmail.com", "Sandhuz");
+$mail->addAddress("sandhuzinnovation@gmail.com", "Sandhuz");
 
 $mail->isHTML(true);
 function clean_string($string) {
