@@ -22,7 +22,7 @@ $mail->SMTPSecure = "tls";
 //Set TCP port to connect to 
 $mail->Port = 587;                                   
 
-$mail->From = "tarun@sportswizzleague.com";
+$mail->From = "sandhuzinnovation@gmail.com";
 
 
 $mail->FromName = "Contact Form";

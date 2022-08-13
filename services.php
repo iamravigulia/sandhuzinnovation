@@ -12,7 +12,7 @@
             </div>
             <div class="md:basis-1/2">
                 <div>
-                    <img class="" src="./images/service-img.png" alt="">
+                    <img class="" src="./images/optical.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
         <div class="md:my-8 px-4 md:px-8 mx-2">
             <div class="md:flex flex-row">
                 <div class="basis-1/3">
-                    <img class="h-full px-0 md:px-8 my-4" src="./images/bdod.png" alt="">
+                    <img class="h-full px-0 md:px-8 my-4" src="./images/bdod1.png" alt="">
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-4 text-xl mt-6"><b>BDOD: </b></div>

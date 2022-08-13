@@ -10,14 +10,14 @@
         
         <div class="md:flex flex-row pt-16 px-4 md:px-16 items-center">
             <div class="basis-full md:basis-1/2">
-                <div class="text-sm md:text-lg my-1 text-pink-700">We Are Product Designer From India</div>
-                <div class="text-xl md:text-6xl my-1 ">We Design Interfaces That Users Love</div>
-                <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
-                <div class="my-4"><a href="" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
+                <div class="text-sm md:text-lg my-1 text-pink-700">SANDHUZ INNOVATION - A Technical Solution</div>
+                <div class="text-xl md:text-6xl my-1 pb-4">Safe, secure and strong</div>
+                <!-- <div class="text-sm my-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante <br> at elit fringilla ac at purus.</div>
+                <div class="my-4"> --><a href="/contact-us.php" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
             </div>
             <div class="basis-full md:basis-1/2">
                 <div>
-                    <img src="./images/slider_1.png" alt="">
+                    <img src="./images/bdod1.png" alt="">
                 </div>
             </div>
         </div>
@@ -28,18 +28,18 @@
             <div class="md:flex flex-row">
                 <div class="hover:shadow rounded-2xl basis-1/3 md:mx-4 md:px-4 md:py-8 py-2">
                     <img class="w-24" src="./images/icons/customer-service.png" alt="">
-                    <div class="text-xl md:text-2xl text-blue-900 my-4">Strategy & Research</div>
-                    <div class="text-xs md:text-sm px-4">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</div>
+                    <div class="text-xl md:text-2xl text-blue-900 my-4">Survey</div>
+                    <div class="text-xs md:text-sm px-4">EXTERNAL AND INTERNAL SURVEY OF TELCOM NETWORK.</div>
                 </div>
                 <div class="hover:shadow rounded-2xl basis-1/3 md:mx-4 md:px-4 md:py-8 py-2">
                     <img class="w-24" src="./images/icons/customer-service.png" alt="">
-                    <div class="text-xl md:text-2xl text-blue-900 my-4">Strategy & Research</div>
-                    <div class="text-xs md:text-sm px-4">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</div>
+                    <div class="text-xl md:text-2xl text-blue-900 my-4">Installation</div>
+                    <div class="text-xs md:text-sm px-4">Cable hauling and network installation, Testing and Activation.</div>
                 </div>
                 <div class="hover:shadow rounded-2xl basis-1/3 md:mx-4 md:px-4 md:py-8 py-2">
                     <img class="w-24" src="./images/icons/customer-service.png" alt="">
-                    <div class="text-xl md:text-2xl text-blue-900 my-4">Strategy & Research</div>
-                    <div class="text-xs md:text-sm px-4">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</div>
+                    <div class="text-xl md:text-2xl text-blue-900 my-4">Civils</div>
+                    <div class="text-xs md:text-sm px-4">Network blockages, Trenches, Pit installation and ACM removal.</div>
                 </div>
             </div>
         </div>
@@ -47,9 +47,9 @@
     <div class="my-12 md:my-24 py-12 md:py-12 px-12 md:px-24 text-center bg-gray-400 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div class="text-xl md:text-4xl text-white py-2">Our Clients</div>
         <div class="md:flex my-4">
-            <img class="basis-1/8 my-3" src="http://www.civilcommsaus.com/wp-content/uploads/elementor/thumbs/UGC-nuu0d4c10gu9e788wp69swtqkci96c1cq67tptxyww.png" alt="">
-            <img class="basis-1/8 my-3" src="http://www.civilcommsaus.com/wp-content/uploads/elementor/thumbs/UGC-nuu0d4c10gu9e788wp69swtqkci96c1cq67tptxyww.png" alt="">
-            <img class="basis-1/8 my-3" src="http://www.civilcommsaus.com/wp-content/uploads/elementor/thumbs/UGC-nuu0d4c10gu9e788wp69swtqkci96c1cq67tptxyww.png" alt="">
+            <img class="basis-1/8 my-3" src="images/downer.jpeg" style="height: 100px;width: auto;"; alt="">
+            <img class="basis-1/8 my-3" src="images/nbm.jpeg" style="height: 100px; width: auto;"  ; alt="">
+            <img class="basis-1/8 my-3" src="images/tech.jpeg" style="height: 100px; width: auto;"  ; alt="">
         </div>
     </div>
     <div class="my-12 md:my-24 text-center">
@@ -65,7 +65,7 @@
     
     <div class="my-12 md:my-24 py-6 md:py-12 px-4 md:px-24 text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div class="text-2xl md:text-4xl text-white py-2">Why Work with us?</div>
-        <p class="text-sm md:text-base text-white py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam perferendis ducimus veritatis cupiditate laboriosam perspiciatis doloribus incidunt assumenda sapiente exercitationem, impedit ipsam, eligendi delectus quos aut, nulla commodi autem dicta!</p>
+        <p class="text-sm md:text-base text-white py-2">If you'd like to join us in telecommunication or transport field , please get in touch with us.</p>
     </div>
 
     <div class="my-12 md:my-24">
