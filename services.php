@@ -6,13 +6,13 @@
     <div class="flex px-4" style="height: 90vh; background-image:url('./images/intro-bg.png')">
         <div class="md:flex flex-row pt-16 px-4 md:px-16 items-center">
             <div class="md:basis-1/2">
-                <div class="text-xl md:text-6xl my-1 ">Services</div>
-                <div class="text-sm my-4">SANDHUZ has capacity to manage administrative and field projects nationwide. We believe in quality of work whilst maintaining the safety and standards. Currently we are providing services in optical fiber network installation.</div>
+                <div class="text-xl md:text-6xl my-2">Services</div>
+                <div class="text-base my-6 leading-7">SANDHUZ has capacity to manage administrative and field projects nationwide. We believe in quality of work whilst maintaining the safety and standards. Currently we are providing services in optical fiber network installation.</div>
                 <div class="my-4"><a href="/contact-us.php" class="bg-red-600 text-white px-4 py-2 inline-block rounded-xl">Contact Us</a></div>
             </div>
             <div class="md:basis-1/2">
                 <div>
-                    <img class="" src="./images/optical.jpeg" alt="">
+                    <img class="mx-2" class="" src="./images/optical.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-4 text-xl mt-6"><b>BDOD: </b></div>
-                    <ul class="text-sm md:text-base">
+                    <ul class="text-base list-disc pl-4">
                         <li>Survey – external and internals</li> 
                         <li>Optical fiber  external cable hauling</li> 
                         <li>Internal cable hauling in MDU and shopping centres</li>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="basis-2/3">                    
                     <div class="my-4 text-xl"><b>FTTC:</b></div>
-                    <ul class="text-sm md:text-base">
+                    <ul class="text-base list-disc pl-4">
                         <li>DPU installation and Integrations</li> 
                         <li>DCL extension hauling</li> 
                         <li>Copper cut in</li> 
