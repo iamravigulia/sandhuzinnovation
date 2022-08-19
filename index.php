@@ -6,10 +6,10 @@
          <?php include('inc/nav.php') ?> 
     </div>
 
-    <div class="banner flex" style="height: 90vh; background-image:url('./images/home.jpeg'); background-size:cover;">
-        <div class="md:flex flex-row pt-16 px-4 md:px-8 items-center">
+    <div class="banner flex content-center" style="height: 90vh; background-image:url('./images/home.jpeg'); background-size:cover; align-items: center">
+        <div class="md:flex flex-row  px-4 md:px-8 items-center">
             <div class="bg-white text-center px-6 py-6 rounded-xl shadow">
-                <div class="text-base md:text-2xl my-2 text-blue-700">SANDHUZ INNOVATION - A Technical Solution</div>
+                <div class="text-2xl md:text-2xl my-2 text-blue-700">SANDHUZ INNOVATION - A Technical Solution</div>
                 <div class="text-xl md:text-lg my-2 pb-2" style="
   background: #ff0000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ff0000, #9932cc); /* Chrome 10-25, Safari 5.1-6 */
@@ -47,9 +47,9 @@
     <div class="my-12 md:my-24 py-12 md:py-12 px-12 md:px-24 text-center bg-gray-400 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div class="text-xl md:text-4xl text-white py-2">Our Clients</div>
         <div class="md:flex my-4">
-            <img class="basis-1/8 my-3" src="images/downer.jpeg" style="height: 100px;width: auto;"; alt="">
-            <img class="basis-1/8 my-3" src="images/nbm.jpeg" style="height: 100px; width: auto;"  ; alt="">
-            <img class="basis-1/8 my-3" src="images/silk.jpeg" style="height: 100px; width: auto;"  ; alt="">
+            <img class="basis-1/8 my-6" src="images/downer.jpeg" style="height: auto;width: 200px;"; alt="">
+            <img class="basis-1/8 my-6" src="images/nbm.jpeg" style="height: auto; width: 200px;"  ; alt="">
+            <img class="basis-1/8 my-6" src="images/silk.jpeg" style="height: auto; width: 200px;"  ; alt="">
         </div>
     </div>
     <div class="my-12 md:my-24 text-center">
