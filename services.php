@@ -26,10 +26,10 @@
                 <div class="basis-2/3">                    
                     <div class="my-4 text-xl mt-6"><b>BDOD: </b></div>
                     <ul class="text-base list-disc pl-4">
-                        <li>Survey – external and internals</li> 
-                        <li>Optical fiber  external cable hauling</li> 
-                        <li>Internal cable hauling in MDU and shopping centres</li>
-                        <li>Internal joints installs - PCD, CTL, BDF</li>
+                        <li>Survey – external and internal</li> 
+                        <li>Optical fiber external cable hauling</li> 
+                        <li>Internal cable hauling in MDUs and shopping centres</li>
+                        <li>Internal joints installs - PCD, CTL, BFD</li>
                         <li>LFN and DFN joints</li>
                         <li>Ribbon and Single fiber splicing</li> 
                         <li>Installation of network termination devices (BTD, NTD)</li>

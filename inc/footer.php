@@ -3,7 +3,7 @@
         Copyright © 2022 Sondhuz Innovation. All rights reserved.
     </div>
     <div class="contact-box">
-        <a class="w" href="https://wa.me/+919517232258?text=Hi">
+        <a class="w" href="https://wa.me/+61452295911?text=Hi">
             <img src="./images/icons/whatsapp.webp" width="60px" alt="">
         </a>
     </div>

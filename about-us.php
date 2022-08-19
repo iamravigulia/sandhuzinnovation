@@ -14,7 +14,7 @@
                     </div>
                     <div class="basis-2/3 px-2 my-4">                    
                         <h1 class="text-2xl mb-2">Satinder Sandhu</h1>
-                        <p class="text-base leading-7">Director Satinder Singh is graduated in Electronics and Telecommunication Engineering and has Masters degree in Electronics and Sport Engineering from Griffith University. He has been working as project manager, field technician and Employer.  Satinder has all communication skills, qualifications and knowledge to work and field experience of telecommunications network in copper and optical fiber. As a project manager he has been dealing with field technicians, subcontractors and civils workers and understand the importance of safety, quality and standards.</p>
+                        <p class="text-base leading-7">Director Satinder Singh is graduated in Electronics and Telecommunication Engineering. He has been working as project manager, field technician and Employer. Satinder has all the qualifications, knowledge and field experience of telecommunications network in copper and optical fiber. As a project manager he has been dealing with field technicians, subcontractors and civil workers and understand the importance of safety, quality and standards.</p>
                     </div>
                 </div>
             </div>
