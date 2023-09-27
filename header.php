@@ -11,6 +11,7 @@
     <meta name="description" content="Sandhuz works in Telecommunication and Transport field Australia wide. In telecommunication Sandhuz has worked with Downer, Visionstream, Tech2home, CGA and Hills on FTTC, HFC MDU - SDU, BDOD projects of NBN. Sandhuz also deals in transport and provide safe and reliable service with transport of goods nation-wide." />
 
 <meta name="keywords" content="Sandhuz, Sandhu, Satinder ,INNOVATION" />
+    <meta name="google-site-verification" content="xPq6_Mu7RPvJbGRpYNSNr9WgkN8sdbU4QdIWBh-b_4Q" />
 
 <meta name="robots" content="index, follow" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
